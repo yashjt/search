@@ -1,0 +1,46 @@
+.heading {
+  max-height: 100%;
+  max-width: 100%;
+  object-fit: contain;
+  object-position: center bottom;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 56px;
+  font-family: arial, sans-serif;
+  color: #bdc1c6;
+  max-height: 290px;
+  flex-shrink: 0;
+  box-sizing: border-box;
+  height: 100% 540px;
+  padding-top: 80px;
+}
+
+.form {
+  margin: 0 auto;
+  width: calc(632px + 8px);
+  padding-top: 6px;
+  width: auto;
+  max-width: 584px;
+  position: relative;
+}
+
+.text {
+  flex: 1;
+  display: flex;
+  padding: 5px 8px 0 14px;
+  flex-wrap: wrap;
+  margin-top: -5px;
+  align-items: stretch;
+  flex-direction: row;
+  width: auto;
+  max-width: 584px;
+}
+
+.nav_bar li {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: right;
+  padding-right: 20px;
+}
